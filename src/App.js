@@ -6,11 +6,9 @@ import Weather from './weatherApi';
 function App() {
 
   
-       const Styleing = {
-         background:"#ddd"
-       }
+        
   return ( 
-    <div style={Styleing} >
+    <div  >
     <Weather />
     </div>
   );

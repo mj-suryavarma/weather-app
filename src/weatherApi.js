@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react';
 import {Helmet} from 'react-helmet'
 import axios from 'axios';
 import './weatherApi.css'
-import GeoCoding from './geocodingapi';
 
 
 const CurrentWeather = ()=> {
